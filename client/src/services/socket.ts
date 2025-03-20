@@ -4,7 +4,7 @@ import { io, Socket } from "socket.io-client";
 let socket: Socket | null = null;
 
 // Hard-coded socket URL
-const SOCKET_URL = "http://localhost:5000";
+const SOCKET_URL = "https://photogram-backend-pnc8.onrender.com";
 
 const initialize = (userId: string): Socket => {
   console.log(`Initializing socket for user ${userId} at ${SOCKET_URL}`);
