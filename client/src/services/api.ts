@@ -1,10 +1,10 @@
 import axios from 'axios';
 
 // Base URL for API calls
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://photogram-backend-pnc8.onrender.com/api';
 // UPLOADS_URL is set to the server's base URL so that when a stored file path (e.g. "uploads/profiles/filename.jpg") is appended,
 // the final URL becomes "http://localhost:5000/uploads/profiles/filename.jpg"
-const UPLOADS_URL = import.meta.env.VITE_UPLOADS_URL || 'http://localhost:5000';
+const UPLOADS_URL = import.meta.env.VITE_UPLOADS_URL || 'https://photogram-backend-pnc8.onrender.com';
 
 
 const api = axios.create({
