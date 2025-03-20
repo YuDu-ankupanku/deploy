@@ -1,0 +1,47 @@
+
+/* Only keeping auth-specific styles that may still be in use */
+
+/* Auth pages specific styles */
+.auth-page {
+  background-color: #f8f9fa;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.auth-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.auth-button {
+  background-color: #9b87f5;
+  color: white;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.auth-button:hover {
+  background-color: #8a74e6;
+}
+
+.auth-link {
+  color: #9b87f5;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
